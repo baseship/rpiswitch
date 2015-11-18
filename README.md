@@ -29,7 +29,7 @@ sudo ./build
 
 # rpiswitch
 cd /opt
-sudo git clone https://github.com/baseship/rpiswitch-pi.git
+sudo git clone https://github.com/baseship/rpiswitch.git
 
 cd rpiswitch
 sudo make

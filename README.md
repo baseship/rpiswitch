@@ -24,20 +24,27 @@ sudo ./send a 1 1 0
 
 ## wiring-pi
 cd /opt
+
 sudo git clone git://git.drogon.net/wiringPi
+
 cd wiringPi/
+
 sudo ./build
 
 ## rpiswitch
 cd /opt
+
 sudo git clone https://github.com/baseship/rpiswitch.git
 
 cd rpiswitch
+
 sudo make
 
 ## Make ./send starting at root
 cd /opt/rpiswitch
+
 sudo chown root ./send
+
 sudo chmod 4711 ./send
 
 

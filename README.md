@@ -49,4 +49,6 @@ sudo chmod 4711 ./send
 
 
 ## Intertechno example
-cd /opt/rpiswitch/send d 1 1 1
+cd /opt/rpiswitch
+
+./send d 1 1 1

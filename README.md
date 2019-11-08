@@ -1,3 +1,5 @@
+This contribution is no longer in service !!!
+
 # About
 
 rpiswitch is for controlling rc remote controlled power sockets 
